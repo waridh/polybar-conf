@@ -69,7 +69,7 @@ font-2 = IntoneMono Nerd Font:pixelsize=10;1
 
 modules-left = i3
 modules-center = date
-modules-right = filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature
+modules-right = filesystem pulseaudio xkeyboard memory cpu wlan eth battery temperature
 
 tray-position = right
 tray-padding = 2
@@ -194,6 +194,9 @@ label-song-ellipsis = true
 
 [module/xbacklight]
 type = internal/xbacklight
+
+output = ${env:MONITOR:}
+
 
 format = <label> <bar>
 label = BL
