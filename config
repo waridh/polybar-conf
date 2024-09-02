@@ -71,8 +71,8 @@ modules-left = i3
 modules-center = date
 modules-right = filesystem pulseaudio xkeyboard memory cpu wlan eth battery temperature
 
-tray-position = right
-tray-padding = 2
+; tray-position = right
+; tray-padding = 2
 ; tray-background = #0063ff
 
 ;wm-restack = bspwm
